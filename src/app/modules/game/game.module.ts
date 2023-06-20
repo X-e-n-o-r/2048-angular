@@ -8,3 +8,4 @@ import { GameComponent } from './../../components/game/game.component';
   exports: [GameComponent],
 })
 export class GameModule {}
+

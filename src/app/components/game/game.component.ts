@@ -70,6 +70,7 @@ export class GameComponent implements OnInit {
         ArrowDown: 'down',
     };
 
+    
     constructor(public gs: GameService) {}
 
     ngOnInit() {}
