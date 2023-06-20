@@ -7,6 +7,7 @@ import { GameService } from '../../game/services/game.service';
     templateUrl: './score.component.html',
     styleUrls: ['./score.component.scss'],
 })
+
 export class ScoreComponent implements OnInit {
     constructor(public gs: GameService, public ls: LocalStorageService) {}
 

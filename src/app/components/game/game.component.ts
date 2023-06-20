@@ -70,7 +70,7 @@ export class GameComponent implements OnInit {
         ArrowDown: 'down',
     };
 
-    
+
     constructor(public gs: GameService) {}
 
     ngOnInit() {}
@@ -81,6 +81,7 @@ export class GameComponent implements OnInit {
             this.gs[this.keyEventCodeMap[event.code]]();
         }
     }
+    
 
     getTileStyle(tile: Tile) {
         return {
@@ -91,3 +92,4 @@ export class GameComponent implements OnInit {
         };
     }
 }
+

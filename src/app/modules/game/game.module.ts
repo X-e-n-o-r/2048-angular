@@ -7,5 +7,7 @@ import { GameComponent } from './../../components/game/game.component';
   imports: [CommonModule],
   exports: [GameComponent],
 })
+
 export class GameModule {}
+
 
